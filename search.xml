@@ -48,14 +48,20 @@
       
       <categories>
           
-          <category> Books, Psychoanalysis </category>
+          <category> Books </category>
+          
+          <category> Psychoanalysis </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Lacan,Psychoanalysis,Translation </tag>
+            <tag> Lacan </tag>
+            
+            <tag> Psychoanalysis </tag>
+            
+            <tag> Translation </tag>
             
         </tags>
       
@@ -140,9 +146,9 @@
             
             <tag> Philosophy </tag>
             
-            <tag> Nozick </tag>
-            
             <tag> Translation </tag>
+            
+            <tag> Nozick </tag>
             
             <tag> Experience Machine </tag>
             
@@ -302,13 +308,13 @@
       
         <tags>
             
+            <tag> Psychoanalysis </tag>
+            
             <tag> Reviews </tag>
             
             <tag> Films </tag>
             
             <tag> Psychoanalysis in Films </tag>
-            
-            <tag> Psychoanalysis </tag>
             
         </tags>
       
