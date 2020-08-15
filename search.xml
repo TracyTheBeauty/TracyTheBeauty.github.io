@@ -210,9 +210,9 @@
             
             <tag> Essay </tag>
             
-            <tag> Experience Machine </tag>
-            
             <tag> Nozick </tag>
+            
+            <tag> Experience Machine </tag>
             
         </tags>
       
@@ -331,8 +331,6 @@
             
             <tag> Analytic Philosophy </tag>
             
-            <tag> Nozick </tag>
-            
             <tag> Language Philosophy </tag>
             
             <tag> Political Philosophy </tag>
@@ -342,6 +340,8 @@
             <tag> Foucault </tag>
             
             <tag> Rorty </tag>
+            
+            <tag> Nozick </tag>
             
             <tag> John Locke </tag>
             
