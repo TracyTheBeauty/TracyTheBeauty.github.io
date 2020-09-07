@@ -1,0 +1,168 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>(翻译) 论翻译腔 | Archiv von SächseMannlogie Kreis</title><meta name="description" content="Translations are for academic reference only. Do not copy or cite from this post for either (formal) academic and commercial uses. The copyright is retained by the original author, and I"><meta name="keywords" content="Translation,Translation Studies,Translation Theory,Japanese,English"><meta name="author" content="SächseMannlogie Kreis"><meta name="copyright" content="SächseMannlogie Kreis"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="https://i.loli.net/2020/08/11/vYtSAidcNEf37Rq.png"><link rel="canonical" href="http://yixincui.com/2020/08/24/On-Translationese/"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta property="og:type" content="article"><meta property="og:title" content="(翻译) 论翻译腔"><meta property="og:url" content="http://yixincui.com/2020/08/24/On-Translationese/"><meta property="og:site_name" content="Archiv von SächseMannlogie Kreis"><meta property="og:description" content="Translations are for academic reference only. Do not copy or cite from this post for either (formal) academic and commercial uses. The copyright is retained by the original author, and I"><meta property="og:image" content="https://www.theparisreview.org/blog/wp-content/uploads/2020/06/murakamiandoe.jpg"><meta property="article:published_time" content="2020-08-24T10:02:02.000Z"><meta property="article:modified_time" content="2020-08-27T08:08:15.847Z"><meta name="twitter:card" content="summary"><script><!-- hexo-inject:begin --><!-- hexo-inject:end -->var activateDarkMode = function () {
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#000')
+  }
+}
+var activateLightMode = function () {
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#fff')
+  }
+}
+
+var getCookies = function (name) {
+  const value = `; ${document.cookie}`
+  const parts = value.split(`; ${name}=`)
+  if (parts.length === 2) return parts.pop().split(';').shift()
+}
+
+var autoChangeMode = 'false'
+var t = getCookies('theme')
+if (autoChangeMode === '1') {
+  var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+  var isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+  var isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined) {
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport) {
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour <= 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+      if (Cookies.get('theme') === undefined) {
+        e.matches ? activateDarkMode() : activateLightMode()
+      }
+    })
+  } else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else if (autoChangeMode === '2') {
+  now = new Date()
+  hour = now.getHours()
+  isNight = hour <= 6 || hour >= 18
+  if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else {
+  if (t === 'dark') activateDarkMode()
+  else if (t === 'light') activateLightMode()
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"We didn't find any results for the search: ${query}"}},
+  translate: {"defaultEncoding":1,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  bookmark: {
+    message_prev: 'Press',
+    message_next: 'to bookmark this page'
+  },
+  runtime_unit: 'days',
+  runtime: false,
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: {"bookmark":{"message_prev":"Press","message_next":"to bookmark this page"},"chs_to_cht":"Traditional Chinese Activated Manually","cht_to_chs":"Simplified Chinese Activated Manually","day_to_night":"Dark Mode Activated Manually","night_to_day":"Light Mode Activated Manually","bgLight":"#db5a6b","bgDark":"#121212","position":"bottom-left"},
+  justifiedGallery: {
+    js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+    css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+  },
+  baiduPush: false,
+  highlightCopy: true,
+  highlightLang: true,
+  isPhotoFigcaption: true,
+  islazyload: true,
+  isanchor: false    
+}</script><script id="config_change">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isSidebar: false,
+  postUpdate: '2020-08-27 16:08:15'
+}</script><noscript><style>
+#nav {
+  opacity: 1
+}
+.justified-gallery img {
+  opacity: 1
+}
+</style></noscript><meta name="generator" content="Hexo 5.0.0"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" data-lazy-src="https://i.loli.net/2020/08/11/vYtSAidcNEf37Rq.png" onerror="onerror=null;src='https://i.loli.net/2020/08/11/uqOz5xNe6pGia3f.jpg'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">Articles</div><div class="length_num">17</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">Tags</div><div class="length_num">56</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">Categories</div><div class="length_num">15</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Friends</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(https://www.theparisreview.org/blog/wp-content/uploads/2020/06/murakamiandoe.jpg)"><nav id="nav"><span class="pull-left" id="blog_name"><a class="blog_title" id="site-name" href="/">Archiv von SächseMannlogie Kreis</a></span><span class="pull-right menus"><div id="search_button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> Search</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Friends</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><span class="toggle-menu close"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="post-info"><div id="post-title"><div class="posttitle">(翻译) 论翻译腔</div></div><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2020-08-24T10:02:02.000Z" title="Created 2020-08-24 18:02:02">2020-08-24</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2020-08-27T08:08:15.847Z" title="Updated 2020-08-27 16:08:15">2020-08-27</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Articles/">Articles</a></span></div><div class="meta-secondline"> <span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">Word count:</span><span class="word-count">2.7k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">Reading time:</span><span>13min</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="note warning">
+            <!-- hexo-inject:begin --><!-- hexo-inject:end --><p>Translations are for academic reference only. Do not copy or cite from this post for either (formal) academic and commercial uses. The copyright is retained by the original author, and I abjure the never-existed copyright of translation.</p>
+          </div>
+
+<div class="note info">
+            <p>Original: Masatsugu Ono: <a target="_blank" rel="noopener" href="https://www.theparisreview.org/blog/2020/06/23/on-translationese/">“On Translationese”</a></p><p>Translator: Tracy Tsui</p>
+          </div>
+
+<p>我高中时有一个同学下课总拿两本书出来读：一本红封一本绿封，颜色很亮，我印象特别深刻。那时差不多是1987或者88年，我刚到大分（おいた）省城的一个新学校。这个同学也是我到那里以来最早几个愿意与我聊天的。我第一次发现他对音乐和文学都很有自己的见解的时候感到特别震撼，因为我原先住的地方就是一个小渔村，一家书店都没有，整个初中总共就四十名学生。我不太记得他有没有跟我提过那两本书的书名或者作者名字（他声音特别小），但我确实记得他读书时那副专注的模样。还没过一年，我就再也没见到他了：他母亲的情人把他们母子俩给杀了。</p>
+<p>我第二次见到这两本书的时候我已经搬到东京读大学了。这两本书摞成一堆，摆在全东京最大书店的大门口——<a target="_blank" rel="noopener" href="https://www.theparisreview.org/authors/4010/haruki-murakami">村上春树</a>《挪威的森林》上下册。我房东太太有在厕所读书的坏（好？）习惯，而她最喜欢的就是村上的杂文集。她后来也给了我一本读——书里以一种好像私下给读者写信似的口吻写了一些很平实的东西，比如文学、音乐甚至是做饭。他的文笔有一种愉悦、友善的气质，特别吸引我（可惜那些杂文没有用英语出版过）。我说不太清，但总之我能感到他和我读的一些其他日本当代作家有<strong>很大差别</strong>。而我读的第一本村上的小说（可能是因为我一个认识的比利时教授翻译了这本书）是《寻羊冒险记》。我一翻开这本书，就知道这本书我一定特别读得进去。</p>
+<hr>
+<p>1978年，村上春树在他开的爵士吧附近的神宫棒球场看了赛季开场赛。在第一击球手打出一记干净的左外野球的那一瞬间，一个想法击中了他：“我想我可以写一本小说了。（I think I can write a novel）”村上春树在《我的职业是小说家》里写了这段经历<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="原注：由Ted Goosen翻译的《且听风吟》之序。
+">[1]</span></a></sup>：</p>
+<blockquote>
+<p>我到现在还能准确回想当时的感受——那就好像是有什么东西从天上飘下来，被我用手清清楚楚地抓住了。也不知道怎么就这么<strong>碰巧</strong>抓住了：我当时不知道，现在也不知道。但不管怎样，它发生了，有点像一种揭示，或者说“神启”可能更恰当些。</p>
+</blockquote>
+<p>村上春树用“神启”来形容这件事<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="译者注：原文为*epiphany*。">[2]</span></a></sup>。同一天晚上，他坐在饭桌面前，开始了写作。几个月后他写成了初稿，但他并不满意。于是他把他的好利牌打字机拿了出来，重新开始写作。用英语。</p>
+<p>用英语写作的结果，毋庸置疑，文字单调朴素。但是村上在写作过程中感受到了一种很奇异的韵律：</p>
+<blockquote>
+<p>因为我是在日本出生长大的，所以在我写作的时候，日语的词法句法就像挤满牲畜的谷仓一样，把整个系统塞得满满的。到我试着表达我的想法的时候，这些牲畜就会开始互相磨蹭，然后系统崩溃。所以用外语写作，我能引入一些对应的限制，从而消除这一障碍。</p>
+</blockquote>
+<p>这听上去很矛盾：母语怎么会妨碍他写作呢？但外语写作确实让他下笔更自由了，且在他把他小说开头翻译成日语之前就把他小说开头写完了。</p>
+<p>It may seem paradoxical that his mother tongue prevented him from writing. But writing in a foreign language liberated him, and he finished the beginning of his novel in English before translating it into Japanese:</p>
+<blockquote>
+<p>What I was seeking by writing first in English and then “translating” into Japanese was no less than the creation of an unadorned “neutral” style that would allow me freer movement. My interest was not in creating a watered-down form of Japanese. I wanted to deploy a type of Japanese as far removed as possible from so-called literary language in order to write in my own natural voice.</p>
+</blockquote>
+<p>The style Murakami describes as “neutral” was deemed by some critics “translationese.” When Murakami became a success in the global literary market, Kojin Karatani—one of the most influential Japanese critics—attributed this success to the “non-Japaneseness” of Murakami’s style.</p>
+<p>*</p>
+<p>I wonder why I felt that Murakami’s writing was so natural and atmospheric when I first read his work. The writing did not feel like translationese to me at all. Rather, I had a strong feeling that his Japanese was <em>our</em> Japanese, one that I also lived and breathed. I was struck by the fact that one could write a novel in that kind of language. When reading Murakami, I never experienced the difficulty or resistance I felt each time I read <a target="_blank" rel="noopener" href="https://www.theparisreview.org/authors/26182/kenzaburo-oe">Kenzaburo Oe</a>’s later novels, which were written in a highly elaborate style that I considered “literary.”</p>
+<p>Like Oe, though, when I began writing my first novel, it felt like a natural choice to set the story in my hometown. On a clear day from the town where I was raised, you can see Shikoku island, where Oe’s hometown is located. I’ve always been encouraged and inspired by the fact that Oe has continued throughout his career to write stories set in his hometown. And I’m strongly drawn to the original and imaginative way in which he develops local myths and small histories (in both senses of the French word <em>histoire</em>: history and story).</p>
+<p>I’ve heard that Oe didn’t much appreciate Murakami’s early books, but when Oe made his debut in the late fifties, his writing style was also considered translationese. In an interview with Oe, Karatani said: “Your early works were among the first contemporary Japanese novels I read. Your writing was very new to me. It felt very close to the Japanese used in translation; for example, the Japanese translations of Pierre Gascar or <a target="_blank" rel="noopener" href="https://www.theparisreview.org/authors/5059/norman-mailer">Norman Mailer</a>.” Oe’s early works were so spontaneous and vivid that he quickly gained a huge audience, especially among young people. But the sensual nature of his first few books was gradually replaced by an intellectually elaborated style, one that <em>also</em> has been described by critics as translationese.</p>
+<p>So while Murakami’s translationese makes him clearer and more natural, Oe’s translationese makes him more difficult and more artificial. However, according to Karatani, Oe’s clearer and more natural early work was already translationese, too.</p>
+<p>*</p>
+<p>In <em>Novelist as a Vocation</em>, Murakami says he developed his own original writing style, little by little, specifically by reading foreign novels—either in translation or in the original. He has also said that, having read very few Japanese novels, he didn’t have a firm idea about what a Japanese novel was when he first tried writing one himself.</p>
+<p>Oe, on the other hand, said he was largely influenced by Japanese writers in the postwar era, but over time, he became less interested in Japanese fiction and began to read foreign books in their original languages. Generally, Oe is considered in Japan to be influenced by the French. In Oe’s early works, there are resonances of his reading of French existentialism. But Oe’s English influences are also clear: his close reading of English poets like William Blake, William Butler Yeats, Edgar Allan Poe, and <a target="_blank" rel="noopener" href="https://www.theparisreview.org/authors/5646/t-s-eliot">T. S. Eliot</a> occupy an essential role in his influential autobiographical novels.</p>
+<p>I don’t think anyone would object if I said Oe and Murakami are the two novelists that represent contemporary Japanese literature from the end of the war through the present. Is it surprising that reading foreign literature in the original played a crucial role in their literary development? They are always writing through the experience of the “foreign.” As Proust said: “<em>les beaux livres sont écrits dans une sorte de langeue étrangère</em> (beautiful books are written in a kind of foreign language).” Even if Oe and Murakami seem to be writing in Japanese, they might truly be writing in some kind of foreign language.</p>
+<p>*</p>
+<p>Historically, the modern Japanese novel has its origins in encounters with Western novels, with foreignness. And for more than thirty years, Murakami—who has translated novels and short stories by American writers throughout his career—has been the cornerstone of Japanese literature. Thus, the Japanese literary field at this moment is heavily influenced by American literature—as if in direct proportion to Murakami’s dominance.</p>
+<p>Despite this reality, very few contemporary Japanese novelists read foreign novels—even American or British fiction—in the original. I get the sense that they perhaps don’t feel it’s necessary, since they are able to read a wide range of foreign novels in Japanese translation (translators of literary fiction are relatively well respected in Japan and are considered connoisseurs whose opinions and tastes matter). It is notable, though, that two of Japan’s most exceptional contemporary writers do operate between languages: One is Yoko Tawada, whose <em>The Emissary</em>, translated into English by Margaret Mitsutani, won the National Book Award for Translated Literature in 2018. Tawada writes in German as well as in Japanese. The other is Minae Mizumura. When she was twelve, Mizumura moved with her family from Tokyo to Long Island, New York. After studying fine art in Boston and then living in Paris, she went on to study French literature at Yale. Interestingly, she defines herself as a modern Japanese novelist and writes in Japanese.</p>
+<p>*</p>
+<p>It’s hard to say exactly how and to what extent Murakami’s style has influenced contemporary Japanese writing. I also cannot say with any certainty how and to what extent Oe’s reading of foreign poems in their original language has influenced the creation of his literary style. But it is clear that their experiences with foreignness have been vital to their own work. Notably, Oe developed the cosmology of his homeland in the forest on Shikoku island, far from Tokyo, where he lives. He creates a symbolic opposition between his homeland, a small, local culture with a rich oral and popular tradition, and Tokyo, the center of modern Japanese national culture that has tamed and dominated its diverse peripheral cultures. This fact reminds me of how <em>Cahier du retour au pays natal</em> (<em>Notebook of a Return to the Native Land</em>), one of the most important books in French Caribbean literature about “home,” was written when Aimé Césaire saw a small island on the Adriatic Sea from a shore in Croatia, thousands of miles away from his home on Martinique. Or that Murakami wrote <em>Norwegian Wood</em> when he was living in Greece and Italy, and that he first began writing his chef d’oeuvre <em>The Wind-up Bird Chronicle</em> in Princeton, New Jersey.</p>
+<p>When I was writing my own novel, <em>Echo on the Bay</em>—recently translated into English by Angus Turvill—I was living in Orléans, France. My landlord was the French poet and critic <a target="_blank" rel="noopener" href="https://theparisreview.org/authors/3431/claude-mouchard">Claude Mouchard</a>, and from the window of my second-floor flat I had a view of his expansive garden featuring every kind of tree—cedar, walnut, linden, cherry, apple, peach, pear, apricot. The summer garden filled with green leaves reminded me of the sea of my hometown. In that garden, a year before, Claude and I had finished a French translation of a long poem by the Japanese poet Yoshimasu Gozo, who also writes in, and across, multiple languages.</p>
+<p>It was there, in Orléans, that I began to translate into Japanese Foucault, Glissant, <a target="_blank" rel="noopener" href="https://theparisreview.org/authors/5754/v-s-naipaul">Naipaul</a>, and Marie NDiaye. I feel now that without this effect of distance—geographical distance from my hometown and linguistic distance made possible by it, as well as the in-between space opened up by the act of translation—I couldn’t have written my novel. This distance made it possible for me to see the place and people of my native land in such a vivid way that wouldn’t have been possible if I had been in Tokyo. I am convinced that, like in Murakami and Oe’s work, the in-between space of translation and complete detachment from Japanese helped me to be more sensitive to the language than when I was surrounded by it—or perhaps it allowed me to find my own kind of foreign language.</p>
+<p><em>Masatsugu Ono is the author of numerous novels, including</em> Mizu ni umoreru haka <em>(<em>The Water-Covered Grave</em>), which won the Asahi Award for New Writers, and the Mishima Prize–winning</em> Nigiyakana wan ni seowareta fune*, which was published in Angus Turvill’s English translation as* <a target="_blank" rel="noopener" href="https://bookshop.org/a/1531/9781949641035">Echo on the Bay</a> <em>earlier this month</em>. <em>A prolific translator from the French—including works by Èdouard Glissant and Marie NDiaye—Ono received the Akutagawa Prize, Japan’s highest literary honor, in 2015. He lives in Tokyo.</em></p>
+<p><em>Essay written in English by the author and revised by David Karashima and CJ Evans.</em></p>
+<p><em>If you enjoyed this essay, why not read:</em></p>
+<ul>
+<li><em><a target="_blank" rel="noopener" href="https://www.theparisreview.org/interviews/5816/the-art-of-fiction-no-195-kenzaburo-oe">The Art of Fiction No. 195</a> with Kenzaburo Oe, published in issue no. 183, Winter 2007?</em></li>
+<li><em><a target="_blank" rel="noopener" href="https://www.theparisreview.org/interviews/2/the-art-of-fiction-no-182-haruki-murakami">The Art of Fiction No. 182</a> with Haruki Murakami, published in issue no. 170, Summer 2004?</em></li>
+<li><em>“<a target="_blank" rel="noopener" href="https://www.theparisreview.org/fiction/5444/heigh-ho-haruki-murakami">Heigh-Ho</a>,” by Haruki Murakami, published in issue no. 172, Winter 2004?</em></li>
+</ul>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">原注：由Ted Goosen翻译的《且听风吟》之序。<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">译者注：原文为<em>epiphany</em>。<a href="#fnref:2" rev="footnote"> ↩</a></span></li></ol></div></div></div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="mailto:undefined">SächseMannlogie Kreis</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="http://yixincui.com/2020/08/24/On-Translationese/">http://yixincui.com/2020/08/24/On-Translationese/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Translation/">Translation</a><a class="post-meta__tags" href="/tags/Translation-Studies/">Translation Studies</a><a class="post-meta__tags" href="/tags/Translation-Theory/">Translation Theory</a><a class="post-meta__tags" href="/tags/Japanese/">Japanese</a><a class="post-meta__tags" href="/tags/English/">English</a></div><div class="post_share"><div class="social-share" data-image="https://www.theparisreview.org/blog/wp-content/uploads/2020/06/murakamiandoe.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2020/08/18/neo-confucian-left-liberalism/"><img class="next-cover" data-lazy-src="https://i.loli.net/2020/08/11/N6xWeuJtfY5nKh7.jpg" onerror="onerror=null;src='https://i.loli.net/2020/08/11/CTd62KsbckDEp7f.png'"><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">(Constructing...) (Translation) Continental Neo-Confucianism and Left-wing Liberalism in Realistic Context</div></div></a></div></nav><div class="relatedPosts"><div class="relatedPosts_headline"><i class="fas fa-thumbs-up fa-fw"></i><span> Related Articles</span></div><div class="relatedPosts_list"><div class="relatedPosts_item"><a href="/2020/08/18/neo-confucian-left-liberalism/" title="(Constructing...) (Translation) Continental Neo-Confucianism and Left-wing Liberalism in Realistic Context"><img class="relatedPosts_cover" data-lazy-src="https://i.loli.net/2020/08/11/N6xWeuJtfY5nKh7.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="far fa-calendar-alt fa-fw"></i> 2020-08-18</div><div class="relatedPosts_title">(Constructing...) (Translation) Continental Neo-Confucianism and Left-wing Liberalism in Realistic Context</div></div></a></div><div class="relatedPosts_item"><a href="/2020/08/13/From-Freud-to-Lacan/" title="(Constructing...) (Translation) Read Your Symptom - I"><img class="relatedPosts_cover" data-lazy-src="https://lawliberty.org/app/uploads/2020/01/Lacan.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="far fa-calendar-alt fa-fw"></i> 2020-08-13</div><div class="relatedPosts_title">(Constructing...) (Translation) Read Your Symptom - I</div></div></a></div><div class="relatedPosts_item"><a href="/2020/08/11/Nozick-argument/" title="翻译：诺齐克的体验机论点究竟证明了什么"><img class="relatedPosts_cover" data-lazy-src="https://www.matrise.no/wp-content/uploads/2018/06/635187350773856993_the_happiness_machine_by_tris31-d37ajkp.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="far fa-calendar-alt fa-fw"></i> 2020-08-11</div><div class="relatedPosts_title">翻译：诺齐克的体验机论点究竟证明了什么</div></div></a></div><div class="relatedPosts_item"><a href="/2020/08/11/7-Steps-to-a-better-paper/" title="翻译：七个步骤写出更好的哲学论文"><img class="relatedPosts_cover" data-lazy-src="https://i.loli.net/2020/08/11/N6xWeuJtfY5nKh7.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="far fa-calendar-alt fa-fw"></i> 2020-08-11</div><div class="relatedPosts_title">翻译：七个步骤写出更好的哲学论文</div></div></a></div></div></div></article></main><footer id="footer" style="background-image: url(https://www.theparisreview.org/blog/wp-content/uploads/2020/06/murakamiandoe.jpg)" data-type="photo"><div id="footer-wrap"><div class="copyright">&copy;2020 By SächseMannlogie Kreis</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><section id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="font_plus" type="button" title="Increase Font Size"><i class="fas fa-plus"></i></button><button id="font_minus" type="button" title="Decrease Font Size"><i class="fas fa-minus"></i></button><button id="translateLink" type="button" title="Switch Between Traditional Chinese And Simplified Chinese">繁</button><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog"></i></button><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">Local search</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div></div><hr/><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>Powered by</span> <a target="_blank" rel="noopener" href="https://github.com/wzpan/hexo-generator-search" style="color:#49B1F5;">hexo-generator-search</a></div></div></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div><div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module" defer></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js" async></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="falses" src="/js/third-party/canvas-nest.js"></script></div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({{ JSON.stringify(config) }});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="{{ src }}">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end --></body></html>
